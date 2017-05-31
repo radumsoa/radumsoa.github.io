@@ -1,0 +1,101 @@
+#floorplan2 {
+	width: 80%;
+	max-width: 80%;
+}
+
+#plandiv {
+	text-align: right;
+}
+
+#parentdiv, #datadiv, #tablediv {
+	//padding: 20px;
+}
+#datadiv {
+}
+#datawrapper {
+}
+#planwrapper, #datawrapper, #tablewrapper {
+	padding: 20px;
+	/*border-radius: 2px;
+	background: #384052;*/
+	width: 100%;
+	text-align: center;
+	//background: blue;
+	//height: 500px;
+	//border: 2px solid #eee;
+
+   /*-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+   -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 1);
+   box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 1);*/
+
+}
+#pagetitle {
+	font-size: 25px;
+	color: #eee;
+
+}
+
+#slidetext {
+	color: white;
+	font-size: 30px;
+}
+
+#imgholder {
+	//background: green;
+	text-align: right;
+	//margin-right: 10px;
+	//padding: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+}
+
+.sidelogo {
+	max-height: 50px;
+
+	right: 0px;
+	top: 0px;
+	height: 5vw;
+	width: auto;
+}
+#header {
+	margin-top: 10px;
+	//background: blue;
+	padding: 20px;
+	text-align: center;
+}
+#datawrapper {
+	//float: left;
+	text-align: center;
+	width: 100%;
+	//background: green;
+}
+#sensor-table {
+	color: #eee;
+	width: 410px;
+	margin-top: 30px;
+	border-spacing: 10px;
+	border-collapse: separate;
+	//font-family: monospace;
+}
+
+#planwrapper {
+	//background: green;
+}
+
+body {
+	background: #192026;
+}
+
+
+table {
+	font-size: 20px;
+}
+
+td {
+	height: 30px;
+}
+
+#index-smoothie-chart {
+	float: right;
+}

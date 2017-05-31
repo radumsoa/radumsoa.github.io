@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="menustyles.css">
+
+<!-- JQuery library-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+<!-- bootstrap min css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- bootstrap minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://use.fontawesome.com/31e6fca634.js"></script>
+
+
+
+</head>
+
+
+
+<body style='background: #192026;'>
+
+<input type="checkbox" id="checkbox">
+<label class="btn" for="checkbox"><i id='menuicon' class="fa fa-bars"></i> <!--<span id='menutext'>Menu</span>--></label>
+
+<div class="sidebar">
+    <ul>
+        <a href="index.html" ><li><i class="fa fa-line-chart"></i>Dashboard</li></a>
+        <a href="sensor001.html" ><li><i class="fa fa-area-chart" aria-hidden="true"></i>Sensor 001</li></a>
+        <a href="sensor003.html"><li><i class="fa fa-area-chart" aria-hidden="true"></i>Sensor 002</li></a>
+        <a href="sensor003.html"><li><i class="fa fa-area-chart" aria-hidden="true"></i>Sensor 003</li></a>
+        <a href="about.html" class="active"><li><i class="fa fa-globe"></i>About</li></a>
+    </ul>
+</div>
+
+
+<div id='header'>
+  <span id='pagetitle'>About</span>
+  <div id='imgholder'>
+    <img class='sidelogo' src="rad.png" href="../navbar/">
+    <img class='sidelogo' src="ccs_logo.png" href="../navbar/">
+  </div>
+</div>
+
+            
+
+
+<center><span style='color: white'>waddup</span></center>
+
+<script>
+$(document).ready(function() {
+  $(".menu").click(function(){
+    $(this).toggleClass("active");
+  }); 
+});
+</script>
+</body>
+</html>
