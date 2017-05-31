@@ -34,7 +34,7 @@ function convert_spl(data){
 }
 
 function store_local(){
-  $.getJSON( "http://gw-bd.ccs.miami.edu:8080/sensor/001", function( data ) {
+  $.getJSON( "https://gw-bd.ccs.miami.edu:8080/sensor/001", function( data ) {
     var items = [];
     $.each( data, function( key, val ) {
       datapoints1.push(convert_spl(parseInt(val.volume)));
@@ -42,7 +42,7 @@ function store_local(){
       //items.push( "<li id='" + key + "'>" +val.ts+": "+ val.volume + "</li>" );
     });
   });
-  $.getJSON( "http://gw-bd.ccs.miami.edu:8080/sensor/002", function( data ) {
+  $.getJSON( "https://gw-bd.ccs.miami.edu:8080/sensor/002", function( data ) {
     var items = [];
     $.each( data, function( key, val ) {
       datapoints2.push(parseInt(convert_spl(val.volume)));
@@ -50,7 +50,7 @@ function store_local(){
       //items.push( "<li id='" + key + "'>" +val.ts+": "+ val.volume + "</li>" );
     });
   });
-  $.getJSON( "http://gw-bd.ccs.miami.edu:8080/sensor/003", function( data ) {
+  $.getJSON( "https://gw-bd.ccs.miami.edu:8080/sensor/003", function( data ) {
     var items = [];
     $.each( data, function( key, val ) {
       datapoints3.push(parseInt(convert_spl(val.volume)));
